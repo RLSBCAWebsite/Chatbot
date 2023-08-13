@@ -1,0 +1,360 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey","hie","hy","heya"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you!"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["How", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "How", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+
+{
+    "response_type": "question",
+    "user_input": ["Which", "are", "the","activities","conducted","in","your","college","/?"],
+    "bot_response": "Our college conducts many kinds of activities like Student activity,\n Cultural activity(Solo and Duo singing,Rap/Beatboxing,Solo and Group dance,Painting,Meme making),\n Events like Technical Quiz,Coding,Designing,Ideathon,Debate,Group Discussion and etc...",
+    "required_words": ["activities", "which","college","conducted"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["How","much","is","the","fees","/?"],
+    "bot_response": "Kindly contact-07899393919 College administration.",
+    "required_words": ["fees", "much"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "What", "makes","your","college","unique","/?"],
+    "bot_response": "Our college facilities,placements and campus makes our college a unique one among all the other colleges.",
+    "required_words": ["unique", "makes","college"]
+  },
+
+
+
+  {
+    "response_type": "question",
+    "user_input": ["Will","your", "college", "provide","placement","companies"],
+    "bot_response": "Yes,We do provide many campus placements.",
+    "required_words": ["placements","what", "provide"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Which", "are", "the", "placement","companies","/?"],
+    "bot_response": "Persistent Systems,SAP Labs,Infosys,Wipro,MyCaptain,Happiest Minds,Hexaware,Capgemini,TCS,Accenture,Deloitte,Cognizant,NTT Data,Concentrix,and many more...",
+    "required_words": ["companies", "which","placements"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Which", "is", "one","of","the","best","placement","company","/?"],
+    "bot_response": "SAP Labs",
+    "required_words": ["best", "one","company","which","of","placement"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["What", "makes", "this","university","or","college","special","/?"],
+    "bot_response": "Our college facilities,placements and campus makes our college a special one among all the other colleges.",
+    "required_words": ["makes","university","college","special"]
+  },
+
+
+   {
+    "response_type": "question",
+    "user_input": ["What", "is", "the","timing","of","this","college?"],
+    "bot_response": "8:30am to 6pm  ",
+    "required_words": ["timing","of","this","college"]
+  },
+
+   {
+    "response_type": "question",
+    "user_input": ["What", "is", "the","opening","time","of","this","college","/?"],
+    "bot_response": "Opening time-8:30am",
+    "required_words": ["opening","time","college","what"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Is", "workshop", "conducted","here"],
+    "bot_response": "Yes!Based on technology workshop and seminar will be conducted..",
+    "required_words": ["workshop","conducted","here","is"]
+  },
+
+
+ {
+    "response_type": "question",
+    "user_input": ["What", "is", "the","college","timing","/?"],
+    "bot_response": "8:30am to 6pm ",
+    "required_words": ["what","timing","college","the"]
+  },
+
+ {
+    "response_type": "question",
+    "user_input": ["Which", "is", "the","best","placement","company","in","your","college"],
+    "bot_response": "SAP Labs",
+    "required_words": ["placement","best","college","company","your"]
+  },
+{
+    "response_type": "question",
+    "user_input": ["Which", "is", "the","best","placement","company","in","this","college"],
+    "bot_response": "SAP Labs",
+    "required_words": ["placement","best","college","company","this"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["What", "is", "the","closing","time","of","this","college","/?"],
+    "bot_response": "Closing time is 6pm",
+    "required_words": ["closing","time","this","college"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["Who", "are", "you","/?"],
+    "bot_response": "I am a Chatbot",
+    "required_words": ["are","you","who"]
+  },
+   {
+    "response_type": "question",
+    "user_input": ["Do", "you", "have","feelings","/?"],
+    "bot_response": "I am a Chatbot,Silly",
+    "required_words": ["you","do","have","feelings"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["Give", "me", "some","information","about","your","college"],
+    "bot_response": "Click on this link to know more about our college:https://www.rlsbca.edu.in/",
+    "required_words": ["some","information","give","about"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Give", "me", "some","information","about","this","college"],
+    "bot_response": "Click on this link to know more about our college:https://www.rlsbca.edu.in/",
+    "required_words": ["some","information","give","about"]
+  },
+
+
+   {
+    "response_type": "question",
+    "user_input": ["What", "are", "the","documents","required","for","admission","in","your","college","/?"],
+    "bot_response": "10th marks card(original),\n 12th marks card(original),\nLeaving Certificate or Transfer Certificate of 12th",
+    "required_words": ["documents","required","admission","college"]
+  },
+
+   {
+    "response_type": "question",
+    "user_input": ["What", "are", "the","documents","required","for","admission","/?"],
+    "bot_response": "10th marks card(original),\n 12th marks card(original),\nLeaving Certificate or Transfer Certificate of 12th",
+    "required_words": ["documents","required","admission"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Give", "me", "some","information","about","college"],
+    "bot_response": "Click on this link to know more about our college:https://www.rlsbca.edu.in/",
+    "required_words": ["some","information","give","about"]
+  },
+   {
+    "response_type": "question",
+    "user_input": ["What", "is", "eligibility","criteria","/?"],
+    "bot_response": "Any student who has has passed PUC-ll science or commerce securing a minimum of 35% of marks.\nAny student who has passed JOC or Diploma in Engineering.(Of three year duration of Govt. of Karnataka with minimum of 35% of marks in aggregation in all the semester/year.)",
+    "required_words": ["what","eligibility","criteria"]
+  },
+{
+    "response_type": "question",
+    "user_input": ["Eligibility","criteria","for","admission","/?"],
+    "bot_response": "Any student who has has passed PUC-ll Science or Commerce securing a minimum of 35% of marks.\nAny student who has passed JOC or Diploma in Engineering.(Of three year duration of Govt. of Karnataka with minimum of 35% of marks in aggregation in all the semester/year.)",
+    "required_words": ["admission","eligibility","criteria"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["What", "is", "the","course","structure","/?"],
+    "bot_response": "Basically,there are six semesters\n\nSemester 1\n1.English\n2.MIL\n3.Environmental Studies\n4.C Programming\n5.Digital Logic and Computer Design\n6.Web technology  \n\nLaboratory\n1.C Programming Lab\n2.Web Technology Lab\n\nSemester 2\n1.English\n2.MIL\n3.Indian Constitution\n4.Data Structures and algorithms Using C\n5.C++\n6.Mathematical foundation for computer application  \n\nLaboratory\n1.Data Structures and algorithms  Using C  Lab\n2.C++ Lab\n\nSemester 3\n1.English\n2.Java Programming\n3.Relational Database Management System\n4.Computer Networks\n5.Operating system  \n\nLaboratory\n1.Java Lab\n2.Relational Database management System Lab\n\nSemester 4\n1.English\n2.NET Using C#\n3.J2EE\n4.Software Engineering\n5.ADA  \n\nLaboratory\n1.NET Using C# Lab\n2.J2EE La\n\nSemester 5\nSpecialization:Cloud Computing /Big Data\n2.Data Mining\n3.Android\n4.Cyber Security\n5.Computer Networks  \n\nLaboratory\n1.Big Data Lab using Hadoop\n2.Android Lab\n\nSemester 6\n1.Software Testing \n2.System Programming\n3.Artificial Intelligence\n4.Project Work  \n\nLaboratory\n1.Software Testing using Selenium and AI programs\n",
+    "required_words": ["course","structure"]
+  },
+{
+    "response_type": "question",
+    "user_input": ["Course","structure","of","your","college","/?"],
+    "bot_response": "Basically,there are six semesters\n\nSemester 1\n1.English\n2.MIL\n3.Environmental Studies\n4.C Programming\n5.Digital Logic and Computer Design\n6.Web technology  \n\nLaboratory\n1.C Programming Lab\n2.Web Technology Lab\n\nSemester 2\n1.English\n2.MIL\n3.Indian Constitution\n4.Data Structures and algorithms Using C\n5.C++\n6.Mathematical foundation for computer application  \n\nLaboratory\n1.Data Structures and algorithms  Using C  Lab\n2.C++ Lab\n\nSemester 3\n1.English\n2.Java Programming\n3.Relational Database Management System\n4.Computer Networks\n5.Operating system  \n\nLaboratory\n1.Java Lab\n2.Relational Database management System Lab\n\nSemester 4\n1.English\n2.NET Using C#\n3.J2EE\n4.Software Engineering\n5.ADA  \n\nLaboratory\n1.NET Using C# Lab\n2.J2EE La\n\nSemester 5\nSpecialization:Cloud Computing /Big Data\n2.Data Mining\n3.Android\n4.Cyber Security\n5.Computer Networks  \n\nLaboratory\n1.Big Data Lab using Hadoop\n2.Android Lab\n\nSemester 6\n1.Software Testing \n2.System Programming\n3.Artificial Intelligence\n4.Project Work  \n\nLaboratory\n1.Software Testing using Selenium and AI programs\n",
+    "required_words": ["course","structure"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Subjects", "of","bca","/?"],
+    "bot_response": "\n\nSemester 1\n1.English\n2.MIL\n3.Environmental Studies\n4.C Programming\n5.Digital Logic and Computer Design\n6.Web technology  \n\nLaboratory\n1.C Programming Lab\n2.Web Technology Lab\n\nSemester 2\n1.English\n2.MIL\n3.Indian Constitution\n4.Data Structures and algorithms Using C\n5.C++\n6.Mathematical foundation for computer application  \n\nLaboratory\n1.Data Structures and algorithms  Using C  Lab\n2.C++ Lab\n\nSemester 3\n1.English\n2.Java Programming\n3.Relational Database Management System\n4.Computer Networks\n5.Operating system  \n\nLaboratory\n1.Java Lab\n2.Relational Database management System Lab\n\nSemester 4\n1.English\n2.NET Using C#\n3.J2EE\n4.Software Engineering\n5.ADA  \n\nLaboratory\n1.NET Using C# Lab\n2.J2EE La\n\nSemester 5\nSpecialization:Cloud Computing /Big Data\n2.Data Mining\n3.Android\n4.Cyber Security\n5.Computer Networks  \n\nLaboratory\n1.Big Data Lab using Hadoop\n2.Android Lab\n\nSemester 6\n1.Software Testing \n2.System Programming\n3.Artificial Intelligence\n4.Project Work  \n\nLaboratory\n1.Software Testing using Selenium and AI programs\n",
+    "required_words": ["subjects","bca"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Subjects", "of","BCA","/?"],
+    "bot_response": "\n\nSemester 1\n1.English\n2.MIL\n3.Environmental Studies\n4.C Programming\n5.Digital Logic and Computer Design\n6.Web technology  \n\nLaboratory\n1.C Programming Lab\n2.Web Technology Lab\n\nSemester 2\n1.English\n2.MIL\n3.Indian Constitution\n4.Data Structures and algorithms Using C\n5.C++\n6.Mathematical foundation for computer application  \n\nLaboratory\n1.Data Structures and algorithms  Using C  Lab\n2.C++ Lab\n\nSemester 3\n1.English\n2.Java Programming\n3.Relational Database Management System\n4.Computer Networks\n5.Operating system  \n\nLaboratory\n1.Java Lab\n2.Relational Database management System Lab\n\nSemester 4\n1.English\n2.NET Using C#\n3.J2EE\n4.Software Engineering\n5.ADA  \n\nLaboratory\n1.NET Using C# Lab\n2.J2EE La\n\nSemester 5\nSpecialization:Cloud Computing /Big Data\n2.Data Mining\n3.Android\n4.Cyber Security\n5.Computer Networks  \n\nLaboratory\n1.Big Data Lab using Hadoop\n2.Android Lab\n\nSemester 6\n1.Software Testing \n2.System Programming\n3.Artificial Intelligence\n4.Project Work  \n\nLaboratory\n1.Software Testing using Selenium and AI programs\n",
+    "required_words": ["subjects","BCA"]
+  },
+
+ {
+    "response_type": "question",
+    "user_input": ["Does", "your ", "college", "offer", "transport", "facility","/?"],
+    "bot_response": "Yes,We do provide college buses for all the students as well as the staff and non-staff.",
+    "required_words": ["does","your","offer","transport","facility","college"]
+  },
+
+   {
+    "response_type": "question",
+    "user_input": ["Does", "the ", "college", "provide", "a", "bus","facility","/?"],
+    "bot_response": "Yes,We do provide college buses for all the students as well as the staff and non-staff.",
+    "required_words": ["does", "the","college","provide","bus","facility"]
+  },
+
+   {
+    "response_type": "question",
+    "user_input": ["Does", "this ", "college", "provide", "bus", "facility","/?"],
+    "bot_response": "Yes,We do provide college buses for all the students as well as the staff and non-staff.",
+    "required_words": ["does", "this","college","provide","bus","facility"]
+  },
+   {
+    "response_type": "question",
+    "user_input": ["Does", "your", "college", "provide", "any", "kind","of","scholarships","/?"],
+    "bot_response": "Yes,We provide SSP and NSP scholarships.",
+    "required_words": ["does", "provide","kind","of","scholarships"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["What", "are ", "the ", "most", "popular", "activities","/?"],
+    "bot_response": "Our college conducts many kinds of activities like Student activity,\n Cultural activity(Solo and Duo singing,Rap/Beatboxing,Solo and Group dance,Painting,Meme making),\n Events like Technical Quiz,Coding,Designing,Ideathon,Debate,Group Discussion and etc...\n",
+    "required_words": ["what", "most","popular","activities","are"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Are", "there", "any", "scholarships", "provided", "in","your","college","/?"],
+    "bot_response": "Yes,We provide SSP and NSP scholarships.",
+    "required_words": ["are", "any","scholarships","provided","college"]
+  },
+ {
+    "response_type": "question",
+    "user_input": ["Are", "your ", "professors", "good", "teachers","/?"],
+    "bot_response": "Yes,Our faculties are good to each and every one of us.",
+    "required_words": ["are", "professors","good","teachers","your"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["How", "is ","the", "WiFi", "on", "campus", "/?"],
+    "bot_response": "It is quite good to connect to the WiFi rather than using your mobile data.",
+    "required_words": ["how", "is","WiFi","on","campus"]
+  },
+
+   {
+    "response_type": "question",
+    "user_input": ["Are", "there ", "many", "students", "from", "other","places","/?"],
+    "bot_response": "Yes,We have many students coming from different places.",
+    "required_words": ["are", "many","students","from","places"]
+  },
+
+
+  {
+    "response_type": "question",
+    "user_input": ["Do", "we ", "have", "a", "mentor", "who","will","guide","us","to","complete","the","certification","courses","/?"],
+    "bot_response": "Yes,there will be a mentor for all the students.",
+    "required_words": ["do", "have","mentor","who","guide","us","complete","certification","courses"]
+  },
+
+
+  {
+    "response_type": "question",
+    "user_input": ["Does", "this", "college", "provide","a", "mentor", "who","will","guide","us","to","complete","the","certification","courses","/?"],
+    "bot_response": "Yes,there will be a mentor for all the students.",
+    "required_words": ["does", "college", "provide", "mentor", "who","will","guide","us","to","complete","the","certification","courses"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Does", "your", "college", "provide","a", "mentor", "who","will","guide","us","to","complete","the","certification","courses","/?"],
+    "bot_response": "Yes,there will be a mentor for all the students.",
+    "required_words": ["does", "college", "provide","your", "mentor", "who","will","guide","us","to","complete","certification","courses"]
+  },
+
+
+  {
+    "response_type": "question",
+    "user_input": ["Do", "we ", "have", "to", "get", "a","laptop","/?"],
+    "bot_response": "No,Our college will provide a PC for all of them during lab hours and if anyone wants to practice after the lab hours they can sit back and practice.",
+    "required_words": ["do", "we","have","get","laptop"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Does", "your ", "college", "provide", "computers", "/?"],
+    "bot_response": "No,Our college will provide a PC for all of them during lab hours and if anyone wants to practice after the lab hours they can sit back and practice.",
+    "required_words": ["does", "your","college","provide","computers"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Does", "this ", "college", "provide", "computers", "/?"],
+    "bot_response": "No,Our college will provide a PC for all of them during lab hours and if anyone wants to practice after the lab hours they can sit back and practice.",
+    "required_words": ["Does", "this","college","provide","computers"]
+  },
+
+{
+    "response_type": "question",
+    "user_input": ["Is", "it ", "compulsory", "to", "get","a","laptop", "/?"],
+    "bot_response": "No,Our college will provide a PC for all of them during lab hours and if anyone wants to practice after the lab hours they can sit back and practice.",
+    "required_words": ["does", "your","college","provide","computers"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["What","is", "your ", "name", "/?"],
+    "bot_response": "My name is RLS BCA Bot",
+    "required_words": ["what", "is","your","name"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["Who", "made ", "you", "/?"],
+    "bot_response": "Susan and Shweta",
+    "required_words": ["Who", "made","you"]
+  },
+{
+    "response_type": "question",
+    "user_input": ["activities","/?"],
+    "bot_response": "Our college conducts many kinds of activities like Student activity,\n Cultural activity,\n Events like Technical Quiz,Coding,Designing,Ideathon,Debate,Group Discussion and etc...\n",
+    "required_words": ["activities"]
+  },
+{
+    "response_type": "question",
+    "user_input": ["laptop", "/?"],
+    "bot_response": "Laptop is not compulsory",
+    "required_words": ["laptop"]
+  },
+    {
+    "response_type": "question",
+    "user_input": ["Curriculum", "/?"],
+    "bot_response": "We provide specialization on industry oriented subjects.",
+    "required_words": ["laptop"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["How", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  }
+]
